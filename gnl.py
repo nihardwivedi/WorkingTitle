@@ -19,7 +19,7 @@ def print_result(annotations):
     return 0
 
 
-def analyze(movie_review_filename):
+def analyze(tweets.txt):
     """Run a sentiment analysis request on text within a passed filename."""
     client = language.LanguageServiceClient()
 
