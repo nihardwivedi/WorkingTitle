@@ -13,27 +13,27 @@ api = tweepy.API(auth)
 #  find_user():
 ####################
 
-file=open('/home/ece-student/Desktop/601/1_1.txt','w')
+file=open('users.txt','w')
 apple_user = []
 if(api.verify_credentials):
   print("We successfully logged in.")
 
-for tweet in tweepy.Cursor(api.search,q='Apple').items(20):
+for tweet in tweepy.Cursor(api.search,q='Borderlands3').items(20):
   file.write('Tweet by: @' + tweet.user.screen_name+'\n')
   apple_user.append(tweet.user.screen_name)
 
 file.close()
 print("ok")
-print(apple_user)
+print(game_player)
 
 #########################
 #get_user_tweet():
 ########################
-file=open('/home/ece-student/Desktop/601/2.txt','w')
+file=open('tweets.txt','w')
 i = 0 
-for i in range(len(apple_user)):
-  public_tweets = api.user_timeline(apple_user[i])
-  file.write(apple_user[i]+'::\n')
+for i in range(len(game_player)):
+  public_tweets = api.user_timeline(game_player[i])
+  file.write(game_player[i]+'::\n')
 
   for tweet in public_tweets:
     file.write(tweet.text+'\n')
