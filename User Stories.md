@@ -9,4 +9,4 @@ Use Case #3 Game companies correct their bugs by collecting criticism from Twitt
 
 Use Case #4 Schools improve their evaluation of teachers by twitter students'comments and messages to teachers.
 
-Final Use Case - Real time update from news channel twitter accounts, following the release of a new product, to monitor the general sentiment building up around it.
+Final Use Case - Game companies correct their bugs by collecting criticism from Twitter accounts of players.
