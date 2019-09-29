@@ -23,6 +23,7 @@ What you will avoid in the future?
 
 #### Install [Python](www.python.org), [Pip](https://pypi.org/project/pip/), [Tweepy](https://www.tweepy.org/) following the instructions for your platform (Linux, Windows or MacOS).
 
+### Steps to run the project - <br/>
 #### 1. In your terminal type python ```tweepy.py``` and hit enter. The script will get the top 20 users and generate text files containing their usernames and tweets in the same directory.<br/>
 #### 2. Next type ```python gnl.py``` and hit enter. The script will generate the sentiment scores for the tweets in a text file.<br/>
 #### Edit the tweepy.py file with your preferred values for the hashtag to search for and the number of users to get.<br/><br/><br/>
