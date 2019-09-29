@@ -3,11 +3,6 @@
 
 ![ARCHITECTURE](https://drive.google.com/uc?export=view&id=1w5MyFNhYvziyGwpdxZAr38DhqtP4EL3s)
 
-What you liked doing?
-What you could have done better?
-What you will avoid in the future?
-
-
 ### Target Users - <br/>
 #### The support team at a large game development studio. <br/><br/><br/>
 
@@ -39,4 +34,13 @@ What you will avoid in the future?
 <br/>
 ### Personal Outcomes - <br/>
 #### 1. What I liked doing?<br/>
-#### I liked the team aspect of the project. Working alone might not have given me that insight into a 
+#### Nihar: I liked the team aspect of the project. Working alone might not have given me a new insight into the problems that arose. A new perspective helped me attack the problem from another angle, and ultimately helped me solve the problem.<br/>
+#### Wei:
+
+#### 2. What you could have done better?
+#### Nihar: I should have held more meetings, which could have led to greater product polish. We finished the project, after all in 3 meetings, and mainly worked alone on our own parts of the project.
+#### Wei:
+
+#### 3. What you will avoid in the future?
+#### Nihar: I will avoid jumping straight into coding without first having a plan, and without finalizing any architecture in place.<br/>
+#### Wei: 
