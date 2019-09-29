@@ -1,4 +1,3 @@
-#Still a WIP. Exercise caution.
 import argparse
 
 from google.cloud import language
@@ -24,7 +23,7 @@ def analyze(tweets.txt):
     """Run a sentiment analysis request on text within a passed filename."""
     client = language.LanguageServiceClient()
 
-    with open(movie_review_filename, 'r') as review_file:
+    with open(tweets, 'r') as review_file:
         # Instantiates a plain text document.
         content = review_file.read()
 
@@ -42,8 +41,8 @@ if __name__ == '__main__':
         description=__doc__,
         formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument(
-        'movie_review_filename',
-        help='The filename of the movie review you\'d like to analyze.')
+        'tweets.txt',
+        help='The filename of the tweets file you\'d like to analyze.')
     args = parser.parse_args()
 
-    analyze(args.movie_review_filename)
+    analyze(args.tweets)
