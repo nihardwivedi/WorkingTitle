@@ -30,8 +30,8 @@
 ### Lessons - <br/>
 #### 1. Building software is not easy. We ran into errors. We learnt to be patient.<br/>
 #### 2. Consistency is important. Doing work in regular and small increments is much easier than holding 5 hour code sprints before the deadline.<br/>
-#### 3.Documentation of the code is as important as the code itself. Poorly formatted, messy code without any accompanying documentation is a nightmare to work with. Proper documentation makes it easy for future developers to work on your code.<br/>
-<br/>
+#### 3.Documentation of the code is as important as the code itself. Poorly formatted, messy code without any accompanying documentation is a nightmare to work with. Proper documentation makes it easy for future developers to work on your code.<br/><br/>
+
 ### Personal Outcomes - <br/>
 #### 1. What I liked doing?<br/>
 #### Nihar: I liked the team aspect of the project. Working alone might not have given me a new insight into the problems that arose. A new perspective helped me attack the problem from another angle, and ultimately helped me solve the problem.<br/>
