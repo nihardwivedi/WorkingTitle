@@ -33,7 +33,7 @@ What you will avoid in the future?
 
 ### Project Outcomes - <br/>
 ### Lessons - <br/>
-#### 1. Building even a simple application is not easy. You will run into errors. Learn to be patient.<br/>
+#### 1. Building software is not easy. We ran into errors. We learnt to be patient.<br/>
 #### 2. Consistency is important. Doing work in regular and small increments is much easier than holding 5 hour code sprints before the deadline.<br/>
 #### 3.Documentation of the code is as important as the code itself. Poorly formatted, messy code without any accompanying documentation is a nightmare to work with. Proper documentation makes it easy for future developers to work on your code.<br/>
 <br/>
