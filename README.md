@@ -21,7 +21,7 @@ What you will avoid in the future?
 
 ### Dependencies - pip, python, tweepy
 
-#### Install ![Python](www.python.org),![Pip](https://pypi.org/project/pip/), ![Tweepy](https://www.tweepy.org/) following the instructions for your platform (Linux, Windows or MacOS).
+#### Install [Python](www.python.org), [Pip](https://pypi.org/project/pip/), [Tweepy](https://www.tweepy.org/) following the instructions for your platform (Linux, Windows or MacOS).
 
 #### 1. In your terminal type python ```tweepy.py``` and hit enter. The script will get the top 20 users and generate text files containing their usernames and tweets in the same directory.<br/>
 #### 2. Next type ```python gnl.py``` and hit enter. The script will generate the sentiment scores for the tweets in a text file.<br/>
