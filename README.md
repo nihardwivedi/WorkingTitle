@@ -10,21 +10,24 @@ The support team at a large game development studio. <br/>
 Current scripts which generate a list of twitter users who have tweeted about a given #hashtag. Get and analyze their tweets for sentiment, and store negative sentiment tweets for further analysis. <br/>
 
 ### System Design - <br/>
-There are two pyhton scripts in this project, tweepy.py and gml.py. The first script gets a list of users who have posted a tweet with a particular #hashtag, such as the name of a newly released game, and stores their user names along with top tweets in two separate text files. We can specify the hashtag and the number of users to parse within the script.<br/>The second script parses the text file with the tweets to generate a sentiment score for each tweets in a third text file. This can then be analyzed further for negative tweets and mentions of bugs, which can be passed along to the QA team for patching.<br/>
+There are two pyhton scripts in this project, tw.py and gml.py. The first script gets a list of users who have posted a tweet with a particular #hashtag, such as the name of a newly released game, and stores their user names along with top tweets in two separate text files. We can specify the hashtag and the number of users to parse within the script.<br/>The second script parses the text file with the tweets to generate a sentiment score for each tweets in a third text file. This can then be analyzed further for negative tweets and mentions of bugs, which can be passed along to the QA team for patching.<br/>
 
 ### Steps to run this project - <br/>
 
-Dependencies - pip, python, tweepy <br/>
+Dependencies - pip, python, tweepy,gcloud sdk <br/>
+
+You need to have a google cloud account with a project added and the Natural Language API enabled. [Google Cloud](https://cloud.google.com/natural-language/docs/quickstarts). Also you need to have twitter api keys, steps to get those can be found [here](https://tweepy.readthedocs.io/en/latest/auth_tutorial.html#auth-tutorial).<br/>
 
 Install [Python](www.python.org), [Pip](https://pypi.org/project/pip/), [Tweepy](https://www.tweepy.org/) following the instructions for your platform (Linux, Windows or MacOS).
 
 ### Steps to run the project - <br/>
-1. In your terminal type ```python tweepy.py``` and hit enter. The script will get the top 20 users and generate text files containing their usernames and tweets in the same directory.<br/>
+1. In your terminal type ```python tw.py``` and hit enter. The script will get the top 10 users and generate text files containing their usernames and tweets in the same directory.<br/>
 2. Next type ```python gnl.py``` and hit enter. The script will generate the sentiment scores for the tweets in a text file.<br/>
 Edit the tweepy.py file with your preferred values for the hashtag to search for and the number of users to get.<br/>
+You also need to have the key.json file containing the google cloud api keys as well as the twitter api keys.
 
 ### Testing - <br/>
-Used the scripts for default tests with the hashtag #Borderlands3 and number of users as 20. Got the text files for usernames, tweets and sentiment scores. (ADD SCREENSHOTS)<br/>
+Used the scripts for default tests with the hashtag #Borderlands3 and number of users as 10. Got the text files for usernames, tweets and sentiment scores. (ADD SCREENSHOTS)<br/>
 
 ### Project Outcomes - <br/>
 #### Lessons - <br/>
