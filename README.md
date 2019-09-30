@@ -16,20 +16,20 @@ There are two pyhton scripts in this project, tw.py and gml.py. The first script
 
 pip, python, tweepy,gcloud sdk,git <br/>
 
-You need to have a google cloud account with a project added and the Natural Language API enabled. [Google Cloud](https://cloud.google.com/natural-language/docs/quickstarts). Also you need to have twitter api keys, steps to get those can be found [here](https://tweepy.readthedocs.io/en/latest/auth_tutorial.html#auth-tutorial).<br/>
+You need to have a google cloud account with a project added and the Natural Language API enabled, instructions for those can be found [here](https://cloud.google.com/natural-language/docs/quickstarts). Also you need to have twitter authentication api keys, instructions for those can be found [here](https://tweepy.readthedocs.io/en/latest/auth_tutorial.html#auth-tutorial).<br/>
 
-Install [Python](www.python.org), [Pip](https://pypi.org/project/pip/), [Tweepy](https://www.tweepy.org/), and Git if you're on Windows(https://gitforwindows.org/), following the instructions for your platform (Linux, Windows or MacOS).
+Install [Python](www.python.org), [Pip](https://pypi.org/project/pip/), [Tweepy](https://www.tweepy.org/), and [Git](https://git-scm.com/) for Linux or Mac or [this](https://gitforwindows.org/), if you're on Windows. Follow the instructions for your platform (Linux, Windows or MacOS).
 
 ### Steps to run the project - <br/>
-1. Open a terminal window on Mac or Linux or a Powershell session in Windows and clone the repository by running ```git clone https://github.com/nihardwivedi/WorkingTitle.git``` in the directory where you want to run the project or download a zip file of the repository by clicking the download zip button at top right.![Download zip](https://github.com/nihardwivedi/WorkingTitle/blob/master/git_ss.jpg).<br/>
-2. Navigate to the project folder by running ```cd WorkingTitle```. Paste the key.json file containing your api keys in this folder and also paste the twitter api keys in the tw.py file at the appropiate places.
+1. Open a terminal window on Mac or Linux or a Powershell session in Windows and clone the repository by running ```git clone https://github.com/nihardwivedi/WorkingTitle.git``` in the directory where you want to run the project or download a zip file of the repository by clicking the download zip button at top right.![Download zip](https://github.com/nihardwivedi/WorkingTitle/blob/master/git_ss.jpg)<br/>
+2. Navigate to the project folder by running ```cd WorkingTitle```. Paste the key.json file containing your api keys in this folder and also paste the twitter api keys in the tw.py file at the appropiate places. ![Folder](https://github.com/nihardwivedi/WorkingTitle/blob/master/f_ss.png)<br/>
 3. In your terminal type ```python tw.py``` and hit enter. The script will get the top 10 users and generate text files containing their usernames and tweets in the same directory.<br/>
 4. Next type ```python gnl.py``` and hit enter. The script will generate the sentiment scores for the tweets in a text file called sentiment.txt.<br/>
 Edit the tweepy.py file with your preferred values for the hashtag to search for and the number of users to get.<br/>
 You also need to have the key.json file containing the google cloud api keys as well as the twitter api keys.
 
 ### Testing - <br/>
-Used the scripts for default tests with the hashtag #Borderlands3 and number of users as 10. Got the text files for usernames, tweets and sentiment scores. (ADD SCREENSHOTS)<br/>
+Used the scripts for default tests with the hashtag #Borderlands3 and number of users as 10. Got the text files for usernames, tweets and sentiment scores. <br/>
 
 ### Project Outcomes - <br/>
 #### Lessons - <br/>
