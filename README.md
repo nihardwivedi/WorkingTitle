@@ -24,7 +24,7 @@ Install [Python](www.python.org), [Pip](https://pypi.org/project/pip/), [Tweepy]
 1. Open a terminal window on Mac or Linux or a Powershell session in Windows and clone the repository by running ```git clone https://github.com/nihardwivedi/WorkingTitle.git``` in the directory where you want to run the project or download a zip file of the repository by clicking the download zip button at top right.![Download zip](https://github.com/nihardwivedi/WorkingTitle/blob/master/git_ss.jpg)<br/>
 2. Navigate to the project folder by running ```cd WorkingTitle```. Paste the key.json file containing your api keys in this folder and also paste the twitter api keys in the tw.py file at the appropiate places. ![Folder](https://github.com/nihardwivedi/WorkingTitle/blob/master/f_ss.png)<br/>
 3. In your terminal type ```python tw.py``` and hit enter. The script will get the top 10 users and generate text files containing their usernames and tweets in the same directory.![tw](tw.png)<br/>
-4. Next type ```python gnl.py``` and hit enter. The script will generate the sentiment scores for the tweets in a text file called sentiment.txt.![gnl](gnl.png)<br/>
+4. Next type ```python gnl.py``` and hit enter. The script will generate the sentiment scores for the tweets in a text file called sentiment.txt.![gnl](sent.png)<br/>
 Edit the tweepy.py file with your preferred values for the hashtag to search for and the number of users to get.<br/>
 You also need to have the key.json file containing the google cloud api keys as well as the twitter api keys.
 
