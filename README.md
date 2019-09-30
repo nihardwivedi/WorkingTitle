@@ -14,15 +14,16 @@ There are two pyhton scripts in this project, tw.py and gml.py. The first script
 
 ### Dependencies - <br/>
 
-pip, python, tweepy,gcloud sdk <br/>
+pip, python, tweepy,gcloud sdk,git <br/>
 
 You need to have a google cloud account with a project added and the Natural Language API enabled. [Google Cloud](https://cloud.google.com/natural-language/docs/quickstarts). Also you need to have twitter api keys, steps to get those can be found [here](https://tweepy.readthedocs.io/en/latest/auth_tutorial.html#auth-tutorial).<br/>
 
-Install [Python](www.python.org), [Pip](https://pypi.org/project/pip/), [Tweepy](https://www.tweepy.org/) following the instructions for your platform (Linux, Windows or MacOS).
+Install [Python](www.python.org), [Pip](https://pypi.org/project/pip/), [Tweepy](https://www.tweepy.org/), and Git if you're on Windows(https://gitforwindows.org/), following the instructions for your platform (Linux, Windows or MacOS).
 
 ### Steps to run the project - <br/>
-1. In your terminal type ```python tw.py``` and hit enter. The script will get the top 10 users and generate text files containing their usernames and tweets in the same directory.<br/>
-2. Next type ```python gnl.py``` and hit enter. The script will generate the sentiment scores for the tweets in a text file.<br/>
+1. Open a terminal window on Mac or Linux or a Powershell session in Windows and clone the repository by running ```git clone https://github.com/nihardwivedi/WorkingTitle.git``` in the directory where you want to run the project.<br/>
+2. In your terminal type ```python tw.py``` and hit enter. The script will get the top 10 users and generate text files containing their usernames and tweets in the same directory.<br/>
+3. Next type ```python gnl.py``` and hit enter. The script will generate the sentiment scores for the tweets in a text file.<br/>
 Edit the tweepy.py file with your preferred values for the hashtag to search for and the number of users to get.<br/>
 You also need to have the key.json file containing the google cloud api keys as well as the twitter api keys.
 
