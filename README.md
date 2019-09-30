@@ -12,9 +12,9 @@ Current scripts which generate a list of twitter users who have tweeted about a 
 ### System Design - <br/>
 There are two pyhton scripts in this project, tw.py and gml.py. The first script gets a list of users who have posted a tweet with a particular #hashtag, such as the name of a newly released game, and stores their user names along with top tweets in two separate text files. We can specify the hashtag and the number of users to parse within the script.<br/>The second script parses the text file with the tweets to generate a sentiment score for each tweets in a third text file. This can then be analyzed further for negative tweets and mentions of bugs, which can be passed along to the QA team for patching.<br/>
 
-### Steps to run this project - <br/>
+### Dependencies - <br/>
 
-Dependencies - pip, python, tweepy,gcloud sdk <br/>
+pip, python, tweepy,gcloud sdk <br/>
 
 You need to have a google cloud account with a project added and the Natural Language API enabled. [Google Cloud](https://cloud.google.com/natural-language/docs/quickstarts). Also you need to have twitter api keys, steps to get those can be found [here](https://tweepy.readthedocs.io/en/latest/auth_tutorial.html#auth-tutorial).<br/>
 
@@ -41,7 +41,7 @@ Nihar: I liked the team aspect of the project. Working alone might not have give
 Wei:<br/>
 
 #### 2. What you could have done better?
-Nihar: I should have held more meetings, which could have led to greater product polish. We finished the project, after all in 3 meetings, and mainly worked alone on our own parts of the project.
+Nihar: I should have held more meetings, which could have led to greater product polish. We finished the project, after all in 3 meetings, and mainly worked alone on our own parts of the project.<br/>
 Wei:<br/>
 
 #### 3. What you will avoid in the future?
