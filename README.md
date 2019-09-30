@@ -45,7 +45,7 @@ Nihar: I liked the team aspect of the project. Working alone might not have give
 Wei: New partners and challenges give me impulse. This is my first API programming project. Together with Nihar, I learned a lot of skills.<br/>
 
 #### 2. What you could have done better?
-Nihar: I should have held more meetings, which could have led to greater product polish. We finished the project, after all in 3 meetings, and mainly worked alone on our own parts of the project.<br/>
+Nihar: I should have held more meetings, which could have led to greater product finesse. We finished the project, after all in 3 meetings, and mainly worked alone on our own parts of the project.<br/>
 Wei: We should have more communications and discussions with partners. And A clearer working plan.<br/>
 
 #### 3. What you will avoid in the future?
