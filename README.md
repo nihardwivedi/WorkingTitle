@@ -42,12 +42,12 @@ Used the scripts for default tests with the hashtag #Borderlands3 and number of 
 #### Personal Learnings - <br/>
 #### 1. What I liked doing?<br/>
 Nihar: I liked the team aspect of the project. Working alone might not have given me a new insight into the problems that arose. A new perspective helped me attack the problem from another angle, and ultimately helped me solve the problem.<br/>
-Wei:<br/>
+Wei: New partners and challenges give me impulse. This is my first API programming project. Together with Nihar, I learned a lot of skills.<br/>
 
 #### 2. What you could have done better?
 Nihar: I should have held more meetings, which could have led to greater product polish. We finished the project, after all in 3 meetings, and mainly worked alone on our own parts of the project.<br/>
-Wei:<br/>
+Wei: We should have more communications and discussions with partners. And A clearer working plan.<br/>
 
 #### 3. What you will avoid in the future?
 Nihar: I will avoid jumping straight into coding without first having a plan, and without finalizing any architecture in place.<br/>
-Wei:<br/>
+Wei: I will go online to search for more information and know more about APIs.<br/>
